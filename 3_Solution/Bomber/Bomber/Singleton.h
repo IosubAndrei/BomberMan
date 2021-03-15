@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Singleton {  // SINGLETON - POT FACE OBIECTE DOAR FOLOSIND GETINSTANCE
+class Singleton {  
 public:
 	static Singleton& GetInstance();
 	static Singleton* GetInstancePtr(int v);
