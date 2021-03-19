@@ -127,12 +127,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="Testing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Server.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="Testing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
