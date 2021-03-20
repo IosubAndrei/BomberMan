@@ -126,6 +126,7 @@
     <ClInclude Include="CClientException.h" />
     <ClInclude Include="CException.h" />
     <ClInclude Include="CGenerator.h" />
+    <ClInclude Include="CLogFile.h" />
     <ClInclude Include="CMiscException.h" />
     <ClInclude Include="CServerException.h" />
     <ClInclude Include="CUser.h" />
@@ -136,6 +137,7 @@
     <ClCompile Include="CClientException.cpp" />
     <ClCompile Include="CException.cpp" />
     <ClCompile Include="CGenerator.cpp" />
+    <ClCompile Include="CLogFile.cpp" />
     <ClCompile Include="CMiscException.cpp" />
     <ClCompile Include="CServerException.cpp" />
     <ClCompile Include="CUser.cpp" />
