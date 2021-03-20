@@ -54,6 +54,9 @@
     <ClInclude Include="CServerException.h">
       <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
+    <ClInclude Include="CMiscException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CException.cpp">
@@ -66,6 +69,9 @@
       <Filter>Source Files\Exceptions</Filter>
     </ClCompile>
     <ClCompile Include="CServerException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CMiscException.cpp">
       <Filter>Source Files\Exceptions</Filter>
     </ClCompile>
   </ItemGroup>
