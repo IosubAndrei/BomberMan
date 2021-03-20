@@ -123,12 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CClientException.h" />
     <ClInclude Include="CException.h" />
+    <ClInclude Include="CServerException.h" />
+    <ClInclude Include="CUser.h" />
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="IException.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CClientException.cpp" />
     <ClCompile Include="CException.cpp" />
+    <ClCompile Include="CServerException.cpp" />
+    <ClCompile Include="CUser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

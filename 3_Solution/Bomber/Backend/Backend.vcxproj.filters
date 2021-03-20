@@ -22,21 +22,51 @@
     <Filter Include="Header Files\Exceptions">
       <UniqueIdentifier>{05eae0ea-9a8e-4a5d-b51c-328151f84a96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Users">
+      <UniqueIdentifier>{9cd78fb7-8646-4998-b0ee-3a8c0ad008ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{324229df-8055-4e0a-b990-a7d1f0404109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{cad99a79-d4a7-460d-bb20-2f21d9efc5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{fcb6431a-e924-4fde-8472-beeffb794898}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exceptions.h">
       <Filter>Header Files\Configuration</Filter>
     </ClInclude>
-    <ClInclude Include="IException.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CException.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="IException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerException.h">
+      <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CException.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CUser.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
