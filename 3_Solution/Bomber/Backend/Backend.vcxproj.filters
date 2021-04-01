@@ -93,6 +93,9 @@
     <ClInclude Include="CConnection.h">
       <Filter>Header Files\Network</Filter>
     </ClInclude>
+    <ClInclude Include="CEnumConverter.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CException.cpp">

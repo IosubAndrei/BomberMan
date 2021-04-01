@@ -136,6 +136,7 @@
   <ItemGroup>
     <ClInclude Include="CClientException.h" />
     <ClInclude Include="CConnection.h" />
+    <ClInclude Include="CEnumConverter.h" />
     <ClInclude Include="CException.h" />
     <ClInclude Include="CGenerator.h" />
     <ClInclude Include="CLogFile.h" />
