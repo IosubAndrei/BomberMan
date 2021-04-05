@@ -17,6 +17,7 @@ public:
 		ShutDownServer
 	};
 
+
 private:
 	ContainedAction m_action;
 	std::string m_username;

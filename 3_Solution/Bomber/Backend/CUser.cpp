@@ -28,7 +28,7 @@ bool CUser::GetStatus() const {
 
 unsigned int CUser::LoginWithPassword(std::string password) {
 
-	if (this->m_password == /* verificare in baza de date */ ) {
+	if (this->m_password == password ) {
 		this->m_status = true;
 		return this->m_userID;
 	}
