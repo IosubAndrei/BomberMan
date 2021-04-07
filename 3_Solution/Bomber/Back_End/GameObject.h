@@ -15,6 +15,7 @@ class GameObject
 protected:
 	eGameObjectType m_type;
 	float m_movementSpeed;
+	float m_movementFactor;
 	sf::Vector2f m_previousPosition;
 	sf::Vector2f m_position;
 	sf::Vector2f m_newPosition;
