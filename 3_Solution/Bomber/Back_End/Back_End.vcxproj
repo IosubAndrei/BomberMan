@@ -171,8 +171,12 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="IException.h" />
     <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="Packet.hpp" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerControllerType.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="ServerMessages.h" />
+    <ClInclude Include="ServerMessageType.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TileLayer.h" />
     <ClInclude Include="Timer.h" />
@@ -194,10 +198,15 @@
     <ClCompile Include="CUser.cpp" />
     <ClCompile Include="CUtils.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Resources.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

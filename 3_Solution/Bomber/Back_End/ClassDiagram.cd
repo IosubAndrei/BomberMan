@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CEnumConverter&lt;EnumType&gt;" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumConverter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGenerator" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEhAIAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogFile" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAAAAAAAAAAACQACAAIAAAQAA=</HashCode>
+      <FileName>CLogFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogger" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CLogger::LogType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CLogger.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAAABAAAAAAAAAAAAAAAAFAAAAgAAAAAAI=</HashCode>
+      <FileName>CLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUtils" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>CUtils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CClientException">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAQABAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>CClientException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CException">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAAAAAAIAAAAgAAAAAgAAEAgAAAAAEAEAAA=</HashCode>
+      <FileName>CException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiscException">
+    <Position X="3" Y="4" Width="1.5" />
+    <InheritanceLine Type="CException" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="4.015" />
+        <Point X="3.688" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAIBAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>CMiscException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CServerException">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAEAAAAAAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>CServerException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IException">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="IException::WarningSeverity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>IException.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>IException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CConnection" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProtocol" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAAACBAAEAAAAAAAAAAAAAAAQCECAAAAAAQAA=</HashCode>
+      <FileName>CProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRequest" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAIABQAAgAAAAABQAIAAQAAAAAAAAAoAAAQAA=</HashCode>
+      <FileName>CRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CResponse" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIABQAgAIAAAAAAAIAAQCAAAIABAAAIAAAAA=</HashCode>
+      <FileName>CResponse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSocketPacket" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSocketPacket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAQEACAAIAAAAAgAAAAAAQAAAAAAQAABAAIEAAE=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonCopyable">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>NonCopyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="3.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAKBAEACABgACAAAoAgAQIAAAAAAEAAACFAQAEAFk=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAEAgAAAAABAAAAAAAAAAAAAAIEAAIAABA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAgAAAAAACAAAAAAAAAAAAABAIBAAAAAAAAAEAAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUser" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CUser::UserType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CUser.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAIIAAAgAAAAAABAAABQIEAACAAAEAAAIAAAAACAA=</HashCode>
+      <FileName>CUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Packet" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="sf::Packet::BoolType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packet.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEARAAAAAIAAAAAAFICBAwAgAAAAAQCAAAEAABABACA=</HashCode>
+      <FileName>Packet.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PlayerDetails" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerMessages.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ServerMessageInitialGameData" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAA=</HashCode>
+      <FileName>ServerMessages.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ServerMessageInvalidMove" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ServerMessages.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ServerMessagePlayerMove" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerMessages.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Box" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FrameDetails" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAABAAAAAAAAQAAAAACAAAAEAAAAAAA=</HashCode>
+      <FileName>FrameDetails.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TileLayer" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>TileLayer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="eCollidableTile" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>ColidableTile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDirection" Collapsed="true">
+    <Position X="13.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Direction.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eGameObjectType" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAABAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePlayerType" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerControllerType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePlayerControllerType" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAA=</HashCode>
+      <FileName>PlayerControllerType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eServerMessageType" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAQAAEAAAAAAgAAABBAAABIACAAgAAAAAASAAEA=</HashCode>
+      <FileName>ServerMessageType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eTimer" Collapsed="true">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

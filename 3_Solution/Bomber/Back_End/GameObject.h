@@ -7,7 +7,8 @@ constexpr float BOMB_LIFETIME = 2.0f;
 enum class eGameObjectType
 {
 	eBomb=0,
-	eExplosion
+	eExplosion,
+	eMovementPickUp
 };
 
 class GameObject
