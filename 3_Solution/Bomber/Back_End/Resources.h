@@ -78,5 +78,25 @@ public:
 
 class Animations : private NonCopyable
 {
+private:
+	Animations(){}
 
+	const std::array<AnimationDetails, static_cast<size_t>(eAnimationName::eTotal)> animations
+	{
+		//Player Idle
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveUpStart, eFrameID::ePlayerMoveUpStart),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveDownStart, eFrameID::ePlayerMoveDownStart),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveRightStart, eFrameID::ePlayerMoveRightStart),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveLeftStart, eFrameID::ePlayerMoveLeftStart),
+		//Player Move
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveUpStart, eFrameID::ePlayerMoveUpEnd),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveDownStart, eFrameID::ePlayerMoveDownEnd),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveRightStart, eFrameID::ePlayerMoveRightEnd),
+		AnimationDetails(eDirection::eRight, eFrameID::ePlayerMoveLeftStart, eFrameID::ePlayerMoveLeftEnd, eAnimationRepeatable::eTrue, eAnimationFlipped::eTrue),
+		//Game Objects
+		AnimationDetails(eDirection::eDown, eFrameID::eBombStart, eFrameID::eBombEnd, eAnimationRepeatable::eFalse),
+		AnimationDetails(eDirection::eUp, eFrameID::eExplosionStart, eFrameID::eExplosionEnd, eAnimationRepeatable::eFalse),
+		AnimationDetails(eDirection::eNone, eFrameID::eMovementSpeedPickUp, eFrameID::eMovementSpeedPickUp),
+		AnimationDetails(eDirection::eNone, eFrameID::eExtraBombPickUp, eFrameID::eExtraBombPickUp)
+	};
 };

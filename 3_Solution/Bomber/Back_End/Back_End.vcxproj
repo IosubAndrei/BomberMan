@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AnimatedSprite.h" />
     <ClInclude Include="Box.h" />
     <ClInclude Include="CClientException.h" />
     <ClInclude Include="CConnection.h" />
@@ -169,10 +170,14 @@
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="FrameDetails.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectClient.h" />
     <ClInclude Include="IException.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="NetworkHandler.h" />
     <ClInclude Include="NonCopyable.h" />
     <ClInclude Include="Packet.hpp" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerClient.h" />
     <ClInclude Include="PlayerControllerType.h" />
     <ClInclude Include="Resources.h" />
     <ClInclude Include="ServerMessages.h" />
@@ -183,6 +188,7 @@
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnimatedSprite.cpp" />
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="CClientException.cpp" />
     <ClCompile Include="CException.cpp" />
@@ -198,8 +204,12 @@
     <ClCompile Include="CUser.cpp" />
     <ClCompile Include="CUtils.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectClient.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="NetworkHandler.cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerClient.cpp" />
     <ClCompile Include="Resources.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
