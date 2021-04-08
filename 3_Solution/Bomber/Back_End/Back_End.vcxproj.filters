@@ -49,6 +49,12 @@
     <Filter Include="Source Files\Client">
       <UniqueIdentifier>{5487e3ef-87e9-4044-ae45-132e4f2093b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Server">
+      <UniqueIdentifier>{215e750f-2de8-4c95-95db-77d7c6ff893c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{44554337-f982-4ad0-87f0-d29ff85ea40b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CGenerator.h">
@@ -168,6 +174,12 @@
     <ClInclude Include="Level.h">
       <Filter>Header Files\Client</Filter>
     </ClInclude>
+    <ClInclude Include="BombServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Timer.cpp">
@@ -248,8 +260,15 @@
     <ClCompile Include="Level.cpp">
       <Filter>Source Files\Client</Filter>
     </ClCompile>
+    <ClCompile Include="BombServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

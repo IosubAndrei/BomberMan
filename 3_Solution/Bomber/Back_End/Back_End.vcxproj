@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AnimatedSprite.h" />
+    <ClInclude Include="BombServer.h" />
     <ClInclude Include="Box.h" />
     <ClInclude Include="CClientException.h" />
     <ClInclude Include="CConnection.h" />
@@ -179,6 +180,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerClient.h" />
     <ClInclude Include="PlayerControllerType.h" />
+    <ClInclude Include="PlayerServer.h" />
     <ClInclude Include="Resources.h" />
     <ClInclude Include="ServerMessages.h" />
     <ClInclude Include="ServerMessageType.h" />
@@ -189,6 +191,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimatedSprite.cpp" />
+    <ClCompile Include="BombServer.cpp" />
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="CClientException.cpp" />
     <ClCompile Include="CException.cpp" />
@@ -210,6 +213,7 @@
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayerClient.cpp" />
+    <ClCompile Include="PlayerServer.cpp" />
     <ClCompile Include="Resources.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
@@ -217,6 +221,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
