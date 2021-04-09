@@ -6,7 +6,7 @@ enum class eServerMessageType
 	eInitializeClientID,
 	eInitialGameData,
 	ePlayerMove,
-	ePlayerMovePosition,
+	ePlayerMoveToPosition,
 	eNewPlayerPosition,
 	ePlayerBombPlacementRequest,
 	eValidBombPLacementRequest,
