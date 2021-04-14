@@ -43,6 +43,12 @@
     <Filter Include="Source Files\User">
       <UniqueIdentifier>{2f0b0c10-d9bd-4156-803c-209c5d47296b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\XMLParser">
+      <UniqueIdentifier>{f0d31d81-d4aa-405f-9f69-9aa996a0a206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XMLParser">
+      <UniqueIdentifier>{e8bc584c-ea77-4f40-b6e3-3c9a2e642dba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CGenerator.h">
@@ -147,6 +153,18 @@
     <ClInclude Include="Resources.h">
       <Filter>Header Files\Utilities-Game</Filter>
     </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Header Files\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Header Files\XMLParser</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Timer.cpp">
@@ -211,6 +229,24 @@
     </ClCompile>
     <ClCompile Include="Resources.cpp">
       <Filter>Source Files\Utilities-Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Source Files\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>Source Files\XMLParser</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
