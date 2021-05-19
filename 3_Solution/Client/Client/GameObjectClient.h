@@ -1,0 +1,20 @@
+#pragma once
+
+#include "AnimatedSprite.h"
+#include "GameObject.h"
+#include <vector>
+
+constexpr float EXPLOSION_LIFETIME_DURATION = 0.5f;
+
+class GameObjectClient : public GameObject
+{
+public:
+	GameObjectClient(sf::Vector2f startingPosition, float expirationTime, eAnimationName startingAnimationName,
+		eGameObjectType type, eTimer timerActive = eTimer::eFalse);
+
+	void render(sf::RenderWindow& window) const;
+	void update(float deltaTime);
+
+private:
+	AnimatedSprite m_sprite;
+};
