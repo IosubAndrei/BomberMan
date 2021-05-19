@@ -22,6 +22,9 @@
     <Filter Include="Header Files\Exceptions">
       <UniqueIdentifier>{05eae0ea-9a8e-4a5d-b51c-328151f84a96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\TCPServer">
+      <UniqueIdentifier>{228e8a41-dee5-448c-8643-1ea4ffa7dee0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exceptions.h">
@@ -37,6 +40,9 @@
   <ItemGroup>
     <ClCompile Include="CException.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPServerMaybe.cpp">
+      <Filter>Source Files\TCPServer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

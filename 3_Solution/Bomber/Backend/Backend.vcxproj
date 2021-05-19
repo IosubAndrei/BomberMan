@@ -129,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CException.cpp" />
+    <ClCompile Include="TCPServerMaybe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
