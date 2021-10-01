@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/title">
+        <file>img/Bomberman Title.jpg</file>
+        <file>img/title.jpg</file>
+    </qresource>
+    <qresource prefix="/bomb">
+        <file>img/Bomb.jpg</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>img/map.png</file>
+        <file>img/map2.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>img/icon_for_buttons.jpg</file>
+        <file>img/icon2.jpg</file>
+        <file>img/icon.png</file>
+    </qresource>
+    <qresource prefix="/plain">
+        <file>img/plain color.jpg</file>
+        <file>img/plain color 2.png</file>
+    </qresource>
+    <qresource prefix="/login">
+        <file>img/login.png</file>
+    </qresource>
+    <qresource prefix="/signup">
+        <file>img/signup.png</file>
+    </qresource>
+    <qresource prefix="/playing ground images">
+        <file>img/destroyableBlock.png</file>
+        <file>img/explosionPowerUp.png</file>
+        <file>img/field.png</file>
+        <file>img/fire.png</file>
+        <file>img/bomb.png</file>
+        <file>img/bombPowerUp.png</file>
+        <file>img/healthPowerUp.png</file>
+        <file>img/player_front.png</file>
+        <file>img/unDestroyableBlock.png</file>
+    </qresource>
+    <qresource prefix="/resource_file">
+        <file>accounts.txt</file>
+    </qresource>
+</RCC>
